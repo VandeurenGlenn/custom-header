@@ -1,0 +1,21 @@
+<link rel="import" href="../backed/backed.html">
+
+<template id="custom-header">
+  <style>
+    :host {
+      display: block;
+      height: var(--custom-header-height, 48px);
+      background: var(--custom-header-background, #46484f);
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    }
+  </style>
+  <slot></slot>
+  <slot name="toolbar"></slot>
+</template>
+
+<script>
+  Backed(class CustomHeader extends HTMLElement {});
+</script>
