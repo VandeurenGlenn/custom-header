@@ -3,7 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>custom-header - demo</title>
-    <link rel="import" href="../custom-header.html">
+    <script type="module">
+      import './../custom-header.js'
+    </script>
+    <style>
+      html, body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
   </head>
   <body>
     <custom-header></custom-header>

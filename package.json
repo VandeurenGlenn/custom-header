@@ -1,0 +1,14 @@
+{
+  "name": "custom-header",
+  "version": "0.9.0-preview",
+  "main": "custom-header.js",
+  "repository": "https://github.com/VandeurenGlenn/custom-header.git",
+  "author": "VandeurenGlenn <vandeurenglenn@gmail.com>",
+  "flat": true,
+  "dependencies": {
+    "backed": "next"
+  },
+  "backed": {
+    "demo": "demo"
+  }
+}
