@@ -1,5 +1,5 @@
 'use strict';
-import LitMixin from '/node_modules/backed/mixins/lit-mixin.js';
+import LitMixin from './../backed/mixins/lit-mixin.min.js';
 
 export default (() => {
   class CustomHeader extends LitMixin(HTMLElement) {
