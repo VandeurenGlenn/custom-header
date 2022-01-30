@@ -14,9 +14,10 @@ custom-html-tag@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/custom-html-tag/-/custom-html-tag-0.1.6.tgz#f3863cfec13d3186c455fddc0e7f621fa443e98e"
 
-custom-renderer-mixin@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/custom-renderer-mixin/-/custom-renderer-mixin-0.1.9.tgz#8629aef3742dfb551c1c96beeb10fec9dfa97463"
+custom-renderer-mixin@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/custom-renderer-mixin/-/custom-renderer-mixin-0.1.10.tgz#8bd8eba3d51202422bba1fc97f331ece34da5680"
+  integrity sha512-PP+sWVPGedXLdeycQJUltlBeXFGtvNYh8Vo6D3zNh3LX+IfJ3Tyu44FercaCeVrK1EraY6We04faU0nNol0M7g==
   dependencies:
     custom-html-tag "^0.1.6"
     custom-renderer "^0.1.3"
